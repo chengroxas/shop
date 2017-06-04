@@ -135,5 +135,56 @@ class LoginController extends CommonController {
 			}
 		}
 	}
+	/**
+	 * 微博的登录与注册
+	 **/
+	public function Sina(){
+		$code=I('get.code');
+		$appid="361124507";
+		$secret="ba2d28b26bf1951a5ff2133267ca05a4";
+		$redirt_url="http://wx.faquwen.com/?backurl=http://www.shop.org/Api/Login/Sina?";
+		$url="https://api.weibo.com/oauth2/access_token?client_id={$appid}&client_secret={$secret}&grant_type=authorization_code&redirect_uri=".urlencode($redirt_url)."YOUR_REGISTERED_REDIRECT_URI&code={$code}";
+		$token = post($url,array());
+		$token =json_decode($token,true);
+		
+		$access_token=$token['access_token'];
+		$uid=$token['uid'];//用户Uid
+		
+		$info_url="https://api.weibo.com/2/users/show.json?access_token={$access_token}&uid={$uid}";
+		$info=get($info_url);
+		if($info==false){
+			die('用户信息获取失败');//获取用户信息失败
+		}	
+		$info=json_decode($info,true);
+		$User=M('User');
+		$Detail=M('User_info');
+		$user=$User->where(" uid={$uid} ")->find();
+		if(empty($user)){
+			$data['user']=$info['screen_name'];//注册新用户
+			$data['uid']=$uid;
+			$ret=$User->add($data);
+			if($ret!==false){
+				$detail['userid']=$ret;
+				$detail['logo']=$info['profile_image_url'];
+				$Detail->add($detail);
+			}
+			$_SESSION['id']=$ret;
+			$_SESSION['user']=$info['screen_name'];
+			$_SESSION['logo']=$info['profile_image_url'];
+			$_SESSION['cartnum']=0;
+			$this->success('注册成功','/Home/User/index');
+		}else{
+			$_SESSION['id']=$user['id'];
+			$_SESSION['user']=$user['user'];
+			$detail=$Detail->where(" userid={$user['id']} ")->find();
+			$_SESSION['logo']=$detail['logo'];
+			$Cart=M('Shopcart');
+			$_SESSION['cartnum']=$Cart->where(" userid={$user['id']} ")->count();//购物车数
+			$this->success('登录成功','/Home/User/index');
+		}
+	}
 	
+	
+	
+		
 }

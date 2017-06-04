@@ -106,7 +106,7 @@ class UserController extends CommonController {
 		$aa=array();
 		$i=0;
 		foreach($cart as $val){
-			$temp=$Cart->where(" pid={$val['pid']} ")->select();
+			$temp=$Cart->where(" pid={$val['pid']} and userid={$_SESSION['id']} ")->select();
 			$pic=$Pic->where(" id={$val['pid']} ")->find();
 			foreach($temp as $row){
 				$goods=$Goods->where(" goodsid={$row['goodsid']} ")->find();
