@@ -1,0 +1,108 @@
+[ 2017-05-27T09:08:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-27T09:08:00+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-27T11:12:35+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T11:14:15+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T11:14:52+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000114s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T11:15:13+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T11:17:55+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T11:20:20+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T14:12:09+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T14:20:49+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T14:32:42+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T14:32:52+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T14:33:23+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T14:33:31+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T16:55:45+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-27T19:41:15+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-27T19:41:15+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-27T20:39:27+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+ERR: 无法加载模块:Favicon
+

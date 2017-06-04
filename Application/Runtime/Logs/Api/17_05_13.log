@@ -1,0 +1,2986 @@
+[ 2017-05-13T14:32:08+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 14 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 14 行.
+
+[ 2017-05-13T14:32:21+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 25 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 25 行.
+
+[ 2017-05-13T14:32:40+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+ERR: 非法操作:regist
+
+[ 2017-05-13T14:32:42+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+ERR: 非法操作:regist
+
+[ 2017-05-13T14:33:01+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+ERR: 非法操作:regist
+
+[ 2017-05-13T15:04:23+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:04:24+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:04:25+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:04:31+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 65 行.
+
+[ 2017-05-13T15:14:52+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:14:53+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:15:01+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user=11111 or email=euchr@qq.com  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@qq.com  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_user` WHERE ( user=11111 or email=euchr@qq.com  ) LIMIT 1  
+
+[ 2017-05-13T15:15:23+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:15:23+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:15:28+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='11111' or email='euchr@qq.com'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('11111','euchr@qq.com','0','0','1494659728') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T15:16:16+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '11111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:16:17+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'euchr@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:16:20+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:16:22+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22r@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:16:29+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22r@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='2222' or email='22r@qq.com'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('2222','22r@qq.com','0','111111','1494659789') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T15:20:41+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-05-13T15:20:43+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-05-13T15:20:45+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-13T15:20:47+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+
+[ 2017-05-13T15:20:49+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+
+[ 2017-05-13T15:20:51+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-05-13T15:21:20+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-05-13T15:22:39+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222ee' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:22:41+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222ee' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:22:41+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22r@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:22:44+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rf@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:22:49+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: user /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: email /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+SQL: SELECT * FROM `shop_user` WHERE ( user='' or email=''  )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: pwd /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 75 行.
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`) VALUES ('2222ee','22rf@qq.com','15343324352','333333') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 84 行.
+
+[ 2017-05-13T15:23:40+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222ee' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:23:41+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rf@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:23:42+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:23:44+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:23:49+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000087s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: email /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+SQL: SELECT * FROM `shop_user` WHERE ( user='' or email=''  )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: pwd /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 75 行.
+ERR: 1048:Column 'pwd' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_user` (`pwd`,`rgtime`) VALUES (NULL,'1494660229')
+ERR: 1048:Column 'pwd' cannot be null
+ [ SQL语句 ] : INSERT INTO `shop_user` (`pwd`,`rgtime`) VALUES (NULL,'1494660229')
+
+[ 2017-05-13T15:24:14+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:24:15+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:24:20+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: email /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+SQL: SELECT * FROM `shop_user` WHERE ( user='' or email=''  )  [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_user` (`rgtime`) VALUES ('1494660260') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T15:25:05+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:25:06+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:25:11+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 74 行.
+NOTIC: [8] Undefined variable: email /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 74 行.
+SQL: SELECT * FROM `shop_user` WHERE ( user='' or email=''  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 83 行.
+
+[ 2017-05-13T15:26:42+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:26:44+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:26:45+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:27:04+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000174s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: user /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+NOTIC: [8] Undefined variable: email /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 73 行.
+SQL: SELECT * FROM `shop_user` WHERE ( user='' or email=''  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T15:28:33+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T15:28:33+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T15:28:41+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='2222eer' or email='22rfe@qq.com'  )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('2222eer','22rfe@qq.com','15343324352','333333','1494660521') [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T15:52:27+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='2222eer' or email='22rfe@qq.com'  )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T15:53:10+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='2222eer' or email='22rfe@qq.com'  )  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 82 行.
+
+[ 2017-05-13T16:30:45+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '2222eer' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:30:47+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:30:50+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:30:52+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:30:59+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000231s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000087s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+
+[ 2017-05-13T16:32:29+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:32:31+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:32:32+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:32:41+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+
+[ 2017-05-13T16:34:09+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000085s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000074s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:34:09+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:34:15+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+
+[ 2017-05-13T16:35:08+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:35:09+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:35:15+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+
+[ 2017-05-13T16:35:34+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:35:35+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000102s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:35:41+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='22' or email='22rfe@qq.co'  )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`pwd`,`rgtime`) VALUES ('22','22rfe@qq.co','111111','1494664541') [ RunTime:0.0002s ]
+
+[ 2017-05-13T16:36:20+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:36:21+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:37:04+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:37:06+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:37:08+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '223' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:37:09+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co3' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:37:15+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '223' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co3' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='223' or email='22rfe@qq.co3'  )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('223','22rfe@qq.co3','15343324352','333333','1494664635') [ RunTime:0.0002s ]
+
+[ 2017-05-13T16:40:21+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '223' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:40:23+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '223g' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:40:24+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co3g' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:40:30+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '223g' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co3g' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = 15343324352 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='223g' or email='22rfe@qq.co3g'  )  [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('223g','22rfe@qq.co3g','15343324352','222222','1494664830') [ RunTime:0.0002s ]
+
+[ 2017-05-13T16:40:51+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.co3g' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:41:44+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '223g' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:41:46+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:42:51+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:44:11+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.coss' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:44:12+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:44:20+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfg' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.coss' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = 15343324352 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='gfg' or email='22rfe@qq.coss'  )  [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('gfg','22rfe@qq.coss','15343324352','444444','1494665060') [ RunTime:0.0001s ]
+
+[ 2017-05-13T16:44:53+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfg' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:44:54+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:44:55+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:45:19+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:45:20+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:45:25+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossg' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T16:48:22+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:48:28+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:48:35+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossg' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T16:48:49+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossg' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = 11111111111 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='gfgg' or email='22rfe@qq.cossg'  )  [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('gfgg','22rfe@qq.cossg','11111111111','333333','1494665329') [ RunTime:0.0002s ]
+
+[ 2017-05-13T16:48:56+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'gfgg' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:48:58+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hh' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:48:59+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossgh' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T16:49:08+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossgh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = 11111111111 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='hh' or email='22rfe@qq.cossgh'  )  [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('hh','22rfe@qq.cossgh','11111111111','333333','1494665348') [ RunTime:0.0002s ]
+
+[ 2017-05-13T16:49:51+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hh' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:49:53+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhg' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T16:49:59+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhg' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossgh' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T17:03:09+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhg' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:03:10+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cossgh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:03:34+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cos' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:03:36+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhg' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cos' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = 11111111111 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='hhg' or email='22rfe@qq.cos'  )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('hhg','22rfe@qq.cos','11111111111','222222','1494666216') [ RunTime:0.0002s ]
+
+[ 2017-05-13T17:06:06+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhg' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:06:07+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cos' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:06:08+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhgd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:06:10+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cosd' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:06:17+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhgd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cosd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='hhgd' or email='22rfe@qq.cosd'  )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('hhgd','22rfe@qq.cosd','11111111111','0','1494666377') [ RunTime:0.0002s ]
+
+[ 2017-05-13T17:06:32+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhgdc' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:06:33+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cosdc' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:06:39+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'hhgdc' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.cosdc' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T17:09:58+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:10:01+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:10:08+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='22' or email='22rfe@qq.com'  )  [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_user` (`user`,`email`,`phone`,`pwd`,`rgtime`) VALUES ('22','22rfe@qq.com','11111111111','0','1494666608') [ RunTime:0.0003s ]
+
+[ 2017-05-13T17:13:50+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:13:52+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22h' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:13:52+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:13:58+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+
+[ 2017-05-13T17:20:44+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22h' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:20:45+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:20:47+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22h' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:20:52+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:23:15+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '22' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:23:16+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:23:58+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:24:29+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:24:30+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:24:31+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:25:49+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:58:45+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:58:46+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:58:47+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:58:58+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000212s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T17:59:14+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000141s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:59:15+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:59:20+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T17:59:46+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T17:59:47+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T17:59:51+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000173s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T17:59:55+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T18:00:25+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T18:00:45+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:00:46+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:00:50+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T18:01:17+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:01:18+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:01:27+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-13T18:02:21+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:02:21+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:02:27+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-13T18:03:20+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:03:20+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:03:21+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:03:22+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-13T18:04:26+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:04:26+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:04:37+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-13T18:04:43+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-13T18:05:52+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:08:41+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:08:41+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:08:56+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE `phone` = '11111111111' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-13T18:09:12+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '22rfe@qq.comh' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T18:09:13+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:10:38+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:11:42+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T18:11:43+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dddd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T19:51:30+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T19:51:38+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T19:51:45+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T19:54:29+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T19:54:29+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T19:54:34+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T19:55:40+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T19:55:41+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0014s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T19:55:47+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T19:56:09+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T19:56:10+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T19:56:15+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T19:56:20+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:04:42+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000171s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:04:46+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:06:26+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:06:29+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:06:32+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000102s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000084s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:06:35+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:06:39+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000165s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:12:55+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:12:58+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000123s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:14:11+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T20:14:12+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T20:14:17+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000044s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:14:30+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000037s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T20:14:31+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T20:14:36+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000075s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:16:11+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T20:16:12+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T20:16:17+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '1111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '11111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='1111' or email='11111@qq.com'  )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:16:38+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '111111' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T20:16:44+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '111111@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T20:17:05+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000086s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000069s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '111111' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = '111111@qq.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='111111' or email='111111@qq.com'  )  [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T20:25:14+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'wwwwww' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T20:25:19+08:00 ] 127.0.0.1 /Api/User/emailUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000137s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'www@qq.com' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 29 行.
+
+[ 2017-05-13T20:25:31+08:00 ] 127.0.0.1 /Api/User/regist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'wwwwww' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE `email` = 'www@qq.com' LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_user` WHERE ( user='wwwwww' or email='www@qq.com'  )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: ret /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 97 行.
+
+[ 2017-05-13T22:46:09+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:46:10+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:46:11+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = 'dd' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:49:28+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:49:31+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:50:12+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:50:14+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:50:40+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000159s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:51:06+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000118s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:54:13+08:00 ] 127.0.0.1 /Api/User/userUnique
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE `user` = '222' LIMIT 1   [ RunTime:0.0001s ]
+NOTIC: [8] Undefined variable: count /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+NOTIC: [8] Undefined variable: data /var/www/html/thinkphp_shop.com/Application/Api/Controller/UserController.class.php 第 16 行.
+
+[ 2017-05-13T22:56:13+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111' or email='11111' or phone='11111'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T22:56:22+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111' or email='11111' or phone='11111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T22:57:47+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111' or email='11111' or phone='11111'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T23:00:26+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111' or email='11111' or phone='11111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:04:15+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='113' or email='113' or phone='113'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T23:04:27+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T23:05:48+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:06:05+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:07:38+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:08:04+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:09:06+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:09:40+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:10:16+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:11:16+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-13T23:12:33+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-13T23:12:39+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:13:27+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:14:27+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:14:45+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:15:33+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:15:43+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:15:53+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:16:03+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:16:09+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T23:16:17+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:16:27+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000138s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000080s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:16:39+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000137s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:16:49+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='111111' or email='111111' or phone='111111'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T23:17:01+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='111111' or email='111111' or phone='111111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:17:13+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='111111' or email='111111' or phone='111111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:25:35+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111111111' or email='11111111111' or phone='11111111111'  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-13T23:25:40+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111111111' or email='11111111111' or phone='11111111111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:26:01+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111111111' or email='11111111111' or phone='11111111111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:26:26+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111111111' or email='11111111111' or phone='11111111111'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-13T23:26:38+08:00 ] 127.0.0.1 /Api/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000065s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11111111111' or email='11111111111' or phone='11111111111'  ) LIMIT 1   [ RunTime:0.0001s ]
+

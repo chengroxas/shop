@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>商品页面</title>
+
+		<link href="/Public/Tools/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css" />
+		<link href="/Public/Tools/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css" />
+
+		<link href="/Public/basic/css/demo.css" rel="stylesheet" type="text/css" />
+
+		<link href="/Public/css/seastyle.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="/Public/basic/js/jquery-1.7.min.js"></script>
+		<script type="text/javascript" src="/Public/js/script.js"></script>
+		<script type="text/javascript" src="/Public/js/goods.js"></script>
+		<script type="text/javascript" src="/Public/js/template-native.js"></script>
+		<style>
+			.am-pagination-right{text-align:center;}
+		</style>
+	</head>
+
+	<body>
+
+		<!--顶部导航条 -->
+		<include file="./Public/Tpl/header.html" />
+			<b class="line"></b>
+           <div class="search">
+			<div class="search-list">
+			<include file="./Public/Tpl/nav.html" />
+			
+				
+					<div class="am-g am-g-fixed">
+						<div class="am-u-sm-12 am-u-md-12">
+	                  	<div class="theme-popover">														
+							<div class="searchAbout">
+								<!---<span class="font-pale">相关搜索：</span>
+								<a title="坚果" href="#">坚果</a>
+								<a title="瓜子" href="#">瓜子</a>
+								<a title="鸡腿" href="#">豆干</a>--->
+
+							</div>
+							<ul class="select">
+								<p class="title font-normal">
+									<span class="fl">{$types['types']}</span>
+									<span class="total fl">搜索到<strong class="num">{$count}</strong>件相关商品</span>
+								</p>
+								<div class="clear"></div>
+								<li class="select-result">
+									<dl>
+										<dt>已选</dt>
+										<dd class="select-no"></dd>
+										<p class="eliminateCriteria">清除</p>
+									</dl>
+									
+								</li>
+								<div class="clear"></div>
+								<li class="select-list">
+									<dl id="select1">
+										<dt class="am-badge am-round">品牌</dt>	
+									
+										 <div class="dd-conent brand">										
+											<dd class="select-all selected"><a href="#" title="all">全部</a></dd>
+											<foreach name="brand" item="brands">
+												<dd><a href="javascript:void(0);" title="{$brands['brand']}">{$brands['brand']}</a></dd>
+											</foreach>
+										 </div>
+									</dl>
+								</li>
+					        
+							</ul>
+							<div class="clear"></div>
+                        </div>
+							<div class="search-content">
+								<div class="sort">
+									<li class="first" ><a title="all" href="javascript:void(0);">综合排序</a></li>
+									<li><a title="sales" href="javascript:void(0);">销量排序</a></li>
+									<li><a title="price" href="javascript:void(0);">价格优先</a></li>
+									<li class="big"><a id="comsort" title="comnum" href="javascript:void(0);">评价为主</a></li>
+								</div>
+								<div class="clear"></div>
+
+								<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 boxes">
+									<foreach name="goods" item="goods">
+										<li>
+											<a href="/Home/Goods/introduce?pid={$goods['pid']}&goodspid={$goods['id']}">
+										<div class="i-pic limit">
+											
+											<img src="{$goods['cover']}" />
+											<p class="title fl">{$goods['name']}</p>
+											<p class="price fl">
+												<b>¥</b>
+												<strong>{$goods['price']}</strong>
+											</p>
+											<p class="number fl">
+												销量<span>{$goods['sales']}</span>
+											</p>
+										</div>
+										</a>
+									</li>
+									</foreach>
+									
+								</ul>
+							</div>
+							<div class="search-side">
+
+								<div class="side-title">
+									热销商品
+									<span id="{$types['pid']}" class="am-icon-refresh" style="cursor:pointer">换一换</span>
+								</div>
+								<div id="hot-list">
+								</div>						
+							</div>
+							<div class="clear"></div>
+							<!--分页 -->
+							<ul class="am-pagination am-pagination-right">
+								{$links}
+							</ul>
+
+						</div>
+					</div>
+					<include file="./Public/Tpl/footer.html" />
+				</div>
+
+			</div>
+
+		<!--引导 -->
+		<include file="./Public/Tpl/Index/bottom.html" />
+
+		<!--菜单 -->
+		<include file="./Public/Tpl/Index/sidebar.html" />
+		<script>
+			window.jQuery || document.write('<script src="basic/js/jquery-1.9.min.js"><\/script>');
+		</script>
+		<script type="text/javascript" src="/Public/basic/js/quick_links.js"></script>
+
+		<div class="theme-popover-mask"></div>
+		<script type="text/html" id="hot">
+			<%for(var i=0;i<data.length;i++){%>
+				<li>
+					<div class="i-pic check">
+						<img src="<%=data[i].cover%>" />
+						<p class="check-title"><%=data[i].name%></p>
+						<p class="price fl">
+							<b>¥</b>
+							<strong><%=data[i].price%></strong>
+						</p>
+						<p class="number fl">
+							销量<span><%=data[i].sales%></span>
+						</p>
+					</div>
+				</li>
+			<%}%>			
+		</script>
+</body>
+
+</html>

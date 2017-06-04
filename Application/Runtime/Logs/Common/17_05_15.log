@@ -1,0 +1,678 @@
+[ 2017-05-15T09:10:05+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-15T09:10:05+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Favicon
+
+[ 2017-05-15T16:27:40+08:00 ] 127.0.0.1 /User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:User
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/echarts.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/css/amazeui.datatables.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/css/app.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/theme.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/amazeui.datatables.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000100s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/css/amazeui.min.css
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000043s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/user02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/user07.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/user04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/i/favicon.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/theme.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/logo.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/user04.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/user02.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/img/user07.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/amazeui.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000051s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/amazeui.datatables.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/dataTables.responsive.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:34:26+08:00 ] 127.0.0.1 /assets/js/app.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Assets
+
+[ 2017-05-15T16:36:33+08:00 ] 127.0.0.1 /tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+ERR: 无法加载模块:Tables
+
+[ 2017-05-15T16:42:37+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:42:56+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:43:09+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:45:22+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:46:06+08:00 ] 127.0.0.1 /tables.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Tables
+
+[ 2017-05-15T16:49:29+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:29+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:29+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:54+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:54+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:55+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:55+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:55+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:55+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:56+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T16:59:56+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:00:33+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:00:33+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:27+08:00 ] 127.0.0.1 /Public/Admin/assets/images/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:38+08:00 ] 127.0.0.1 /Public/Admin/assets/Pimages/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000120s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:40+08:00 ] 127.0.0.1 /Public/Admin/assets/Publiimages/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:41+08:00 ] 127.0.0.1 /Public/Admin/assets/Public/images/logobig.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:47+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:47+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:02:47+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:06:57+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:06:57+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:06:57+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:07:00+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:07:00+08:00 ] 127.0.0.1 /Public/Admin/js/login.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:09:48+08:00 ] 127.0.0.1 /Public/Admin/js/regist.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:09:48+08:00 ] 127.0.0.1 /Public/Admin/js/regist.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:10:46+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:11:18+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:11:24+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:12:28+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:27:30+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:30:53+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:37:16+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:37:58+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:53:36+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:54:10+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:57:34+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T17:57:52+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:28:16+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:28:55+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:29:18+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:29:56+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:30:53+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:31:16+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:33:27+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:33:40+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000078s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:33:59+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:34:36+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:35:12+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:35:32+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:47:53+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:49:17+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:49:31+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:49:59+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:51:51+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:52:38+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:53:08+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:54:37+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:54:50+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:56:24+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:56:42+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:57:37+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T19:59:27+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:01:43+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:02:45+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:03:49+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:04:29+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:05:22+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000123s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:32:44+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:33:12+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:33:28+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:34:40+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000112s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:34:55+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:35:27+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:36:19+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:37:09+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000111s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:37:25+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+ERR: 无法加载模块:Public
+
+[ 2017-05-15T20:41:03+08:00 ] 127.0.0.1 /Public/Admin/assets/js/jquery.min.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+ERR: 无法加载模块:Public
+

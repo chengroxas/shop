@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>商品</title>
+    <meta name="description" content="这是一个 index 页面">
+    <meta name="keywords" content="index">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <link rel="apple-touch-icon-precomposed" href="/Public/Admin/assets/i/app-icon72x72@2x.png">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI" />
+    <link rel="stylesheet" href="/Public/Admin/assets/css/amazeui.min.css" />
+    <link rel="stylesheet" href="/Public/Admin/assets/css/amazeui.datatables.min.css" />
+    <link rel="stylesheet" href="/Public/Admin/assets/css/app.css">
+    <script src="/Public/Admin/assets/js/jquery.min.js"></script>
+	<style>
+		.am-selected{width:125px;}
+	</style>
+</head>
+
+<body data-type="widgets">
+    <script src="/Public/Admin/assets/js/theme.js"></script>
+    <div class="am-g tpl-g">
+        <!-- 头部 -->
+        <include file="./Public/Admin/Tpl/header.html" />
+        <!-- 风格切换 -->
+        <div class="tpl-skiner">
+            <div class="tpl-skiner-toggle am-icon-cog">
+            </div>
+            <div class="tpl-skiner-content">
+                <div class="tpl-skiner-content-title">
+                    选择主题
+                </div>
+                <div class="tpl-skiner-content-bar">
+                    <span class="skiner-color skiner-white" data-color="theme-white"></span>
+                    <span class="skiner-color skiner-black" data-color="theme-black"></span>
+                </div>
+            </div>
+        </div>
+        <!-- 侧边导航栏 -->
+       
+        <include file="./Public/Admin/Tpl/sidebar.html" />
+       
+        <!-- 内容区域 -->
+        <div class="tpl-content-wrapper">
+            <div class="row-content am-cf">
+                <div class="row">
+                    <div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+                        <div class="widget am-cf">
+                            <div class="widget-head am-cf">
+                                <div class="widget-title  am-cf">商品列表</div>
+
+
+                            </div>
+                            <div class="widget-body  am-fr">
+
+                                <div class="am-u-sm-12 am-u-md-3 am-u-lg-3">
+                                    <div class="am-form-group">
+                                        <div class="am-btn-toolbar">
+                                            <div class="am-btn-group am-btn-group-xs">
+                                                <a href="/Admin/Goods/goodsform" class="am-btn am-btn-default am-btn-success"><span class="am-icon-plus"></span> 新增</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6 am-u-lg-2">
+                                    <div class="am-form-group tpl-table-list-select">
+                                        <select data-am-selected="{btnSize: 'sm'}">
+										  <option value="no">一级类型</option>
+										  <foreach name="ftype" item="ftype">
+											  <option value="{$ftype['fid']}">{$ftype['types']}</option>
+										  </foreach>
+										</select>
+                                    </div>
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6 am-u-lg-2">
+                                    <div class="am-form-group tpl-table-list-select">
+                                        <select data-am-selected="{btnSize: 'sm'}">
+										  <option value="no">二级类型</option>
+										  
+										</select>
+                                    </div>
+                                </div>
+                                
+                                <div class="am-u-sm-12 am-u-md-12 am-u-lg-3">
+                                    <div class="am-input-group am-input-group-sm tpl-form-border-form cl-p">
+                                        <input type="text" class="am-form-field ">
+                                        <span class="am-input-group-btn">
+											<button class="am-btn  am-btn-default am-btn-success tpl-table-list-field am-icon-search" type="button"></button>
+										  </span>
+                                    </div>
+                                </div>
+
+                                <div class="am-u-sm-12">
+                                    <table width="100%" class="am-table am-table-compact am-table-striped tpl-table-black ">
+                                        <thead>
+                                            <tr>
+                                                <th>一级类型</th>
+                                                <th>二级类型</th>
+                                                <th>商家</th>
+                                                <th>商品名称</th>
+												<th>状态</th>	
+                                                <th>规格</th>
+                                                <th>上下架</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+											<foreach name="data" item="goods">
+												<tr class="gradeX">
+                                                <td class="am-text-middle">{$goods['ftype']}</td>
+                                                <td class="am-text-middle">{$goods['stype']}</td>
+                                                <td class="am-text-middle">{$goods['seller']}</td>
+                                                <td class="am-text-middle">{$goods['name']}</td>
+                                                <td class="am-text-middle">
+													<if condition="$goods.status eq 0 " >
+														未上架
+													<elseif condition="$goods.status eq 1 " />
+														已上架
+													<else />
+														已下架
+													</if>	
+													
+												</td>
+                                                 <td class="am-text-middle">
+                                                    <div class="tpl-table-black-operation">
+                                                        <a id="{$goods['id']}"  title="{$goods['name']}" class="view">
+                                                            <i class="am-icon-eye"></i> 查看
+                                                        </a>
+                                                    </div>
+                                                </td>
+                                                <td class="am-text-middle">
+                                                    <div class="tpl-table-black-operation">
+														<if condition="$goods.status eq  1">
+                                                        <a  href="javascript:void(0);" id="{$goods['id']}" onclick="offshelf(this)" class="tpl-table-black-operation-del">
+                                                            <i class="am-icon-arrow-down"></i> 下架
+                                                        </a>
+                                                        <else />
+                                                         <a href="javascript:void(0);" id="{$goods['id']}" onclick="onshelf(this)">
+                                                            <i class="am-icon-arrow-up"></i> 上架
+                                                        </a>
+                                                        </if>
+                                                    </div>
+                                                </td>
+                                            </tr>
+											</foreach>
+                                            
+                                            
+                                            <!-- more data -->
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="am-u-lg-12 am-cf">
+
+                                    <div class="am-fr">
+                                        <ul class="am-pagination tpl-pagination">
+                                           <!--- <li class="am-disabled"><a href="#">«</a></li>
+                                            <li class="am-active"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li><a href="#">4</a></li>
+                                            <li><a href="#">5</a></li>
+                                            <li><a href="#">»</a></li>--->
+                                            {$links}
+                                        </ul>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="/Public/Admin/assets/js/amazeui.min.js"></script>
+    <script src="/Public/Admin/assets/js/app.js"></script>
+    <script src="/Public/js/layer/layer.js"></script>
+    <script src="/Public/Admin/js/goods.js"></script>
+<script>
+	
+</script>
+</body>
+
+</html>

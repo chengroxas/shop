@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+
+		<title>发表评论</title>
+
+		<link href="/Public/Tools/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+		<link href="/Public/Tools/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
+
+		<link href="/Public/css/personal.css" rel="stylesheet" type="text/css">
+		<link href="/Public/css/appstyle.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="/Public/js/jquery-1.7.2.min.js"></script>
+		<script type="text/javascript" src="/Public/js/comment.js"></script>
+		<script type="text/javascript" src="/Public/js/layer/layer.js"></script>
+	</head>
+
+	<body>
+		<!--头 -->
+		<include file="./Public/Tpl/User/header.html" />
+			<b class="line"></b>
+		<div class="center">
+			<div class="col-main">
+				<div class="main-wrap">
+
+					<div class="user-comment">
+						<!--标题 -->
+						<div class="am-cf am-padding">
+							<div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">发表评论</strong> / <small>Make&nbsp;Comments</small></div>
+						</div>
+						<hr/>
+
+						<div class="comment-main">
+							<!--单个商品评论-->
+							<div class="comment-list">
+								<div class="item-pic">
+									<a href="/Home/Goods/introduce?goodspid={$order['goods']['pid']}" class="J_MakePoint">
+										<img src="{$order['cover']}" class="itempic">
+									</a>
+								</div>
+
+								<div class="item-title">
+
+									<div class="item-name">
+										<a href="/Home/Goods/introduce?goodspid={$order['goods']['pid']}">
+											<p class="item-basic-info">{$order['goods']['itemname']}</p>
+										</a>
+									</div>
+									<div class="item-info">
+										<div class="info-little">
+											<span>口味：{$order['goods']['flavor']}</span>
+										</div>
+										<div class="item-price">
+											价格：<strong>{$order['goods']['price']}元</strong>
+										</div>
+									</div>
+								</div>
+								<div class="clear"></div>
+								<div class="item-comment">
+									<textarea id="content" placeholder="请写下对宝贝的感受吧，对他人帮助很大哦！"></textarea>
+								</div>
+								<div class="filePic">
+									<input type="file" class="inputPic" allowexts="gif,jpeg,jpg,png,bmp" accept="image/*" >
+									<span>晒照片(0/5)(暂时不做)</span>
+									<img src="/Public/images/image.jpg" alt="">
+								</div>
+								<div class="item-opinion">
+									<li><i class="op1 active" title="1"></i>好评</li>
+									<li><i class="op2" title="2"></i>中评</li>
+									<li><i class="op3" title="3"></i>差评</li>
+								</div>
+							</div>							
+								<div class="info-btn">
+									<div id="comment" class="am-btn am-btn-danger">发表评论</div>
+								</div>							
+					<script type="text/javascript">
+						$(document).ready(function() {
+							$(".comment-list .item-opinion li").click(function() {	
+								$(this).prevAll().children('i').removeClass("active");
+								$(this).nextAll().children('i').removeClass("active");
+								$(this).children('i').addClass("active");
+								
+							});
+				     })
+					</script>	
+									
+						</div>
+
+					</div>
+
+				</div>
+				<!--底部-->
+				<include file="./Public/Tpl/User/footer.html" />
+			</div>
+			<include file="./Public/Tpl/User/sidebar.html" />
+		</div>
+
+	</body>
+
+</html>

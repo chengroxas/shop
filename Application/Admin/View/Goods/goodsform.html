@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>编辑商品</title>
+<meta name="description" content="这是一个 index 页面">
+<meta name="keywords" content="index">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="renderer" content="webkit">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<link rel="apple-touch-icon-precomposed" href="/Public/Admin/assets/i/app-icon72x72@2x.png">
+<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+<script src="/Public/Admin/assets/js/echarts.min.js"></script>
+<link rel="stylesheet" href="/Public/Admin/assets/css/amazeui.min.css" />
+<link rel="stylesheet" href="/Public/Admin/assets/css/amazeui.datatables.min.css" />
+<link rel="stylesheet" href="/Public/Admin/assets/css/app.css">
+<link rel="stylesheet" href="/Public/Tools/php_img_upload/control/css/zyUpload.css" type="text/css">
+<script src="/Public/Admin/assets/js/jquery.min.js"></script>
+<script src="/Public/Tools/ueditor/ueditor.config.js"></script>
+<script src="/Public/Tools/ueditor/ueditor.all.min.js"></script>
+<script src="/Public/Tools/ueditor/lang/zh-cn/zh-cn.js"></script>
+<style>
+	input{font-size:18px;}
+</style>
+<script>
+	option={
+		initialFrameHeight:500,
+		autoFloatEnabled:false,
+		autoHeightEnabled:false,
+		disabledTableInTable:true,
+		allowDivTransToP:false,
+		imageScaleEnabled:false,
+		fontsize:36
+	};
+	var ue=new baidu.editor.ui.Editor(option);
+	ue.render("editor");
+</script>
+</head>
+
+<body data-type="widgets">
+<script src="/Public/Admin/assets/js/theme.js"></script>
+<div class="am-g tpl-g">
+	<!-- 头部 -->
+	<include file="./Public/Admin/Tpl/header.html"/>
+	<!-- 风格切换 -->
+	<div class="tpl-skiner">
+		<div class="tpl-skiner-toggle am-icon-cog">
+		</div>
+		<div class="tpl-skiner-content">
+			<div class="tpl-skiner-content-title">
+				选择主题
+			</div>
+			<div class="tpl-skiner-content-bar">
+				<span class="skiner-color skiner-white" data-color="theme-white"></span>
+				<span class="skiner-color skiner-black" data-color="theme-black"></span>
+			</div>
+		</div>
+	</div>
+	<!-- 侧边导航栏 -->
+	<include file="./Public/Admin/Tpl/sidebar.html" />
+	<!-- 内容区域 -->
+	<div class="tpl-content-wrapper">
+
+		<div class="container-fluid am-cf">
+			<div class="row">
+				<div class="am-u-sm-12 am-u-md-12 am-u-lg-9">
+					<div class="page-header-heading"><span class="am-icon-home page-header-heading-icon"></span> 编辑商品 <small>Orange lala</small></div>
+					<p class="page-header-description">请按要求填写商品信息</p>
+				</div>
+				<div class="am-u-lg-3 tpl-index-settings-button">
+					<button type="button" class="page-header-button"><span class="am-icon-paint-brush"></span> 设置</button>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="row-content am-cf">
+
+			<div class="row">
+
+				<div class="am-u-sm-12 am-u-md-12 am-u-lg-12">
+					<div class="widget am-cf">
+						<div class="widget-head am-cf">
+							<div class="widget-title am-fl">商品普通信息</div>
+						</div>
+						<div class="widget-body am-fr">
+
+							<form class="am-form tpl-form-border-form tpl-form-border-br">
+								
+								<div class="am-form-group">
+									<label for="goods-type" class="am-u-sm-3 am-form-label">商品一级类型<span class="tpl-form-line-small-title">*必选</span></label>
+									<div class="am-u-sm-9">
+										<select data-am-selected="{btnSize: 'sm'}" id="ftype" style="display: none;">
+										  <option value="no">请选择一级类型</option>
+										  <foreach name="data" item="ftype">
+											  <option value="{$ftype['fid']}">{$ftype['types']}</option>
+										  </foreach>
+										</select>
+									</div>
+								</div>
+								
+								<div class="am-form-group">
+									<label for="goods-type" class="am-u-sm-3 am-form-label">商品二级类型<span class="tpl-form-line-small-title">*必选</span></label>
+									<div class="am-u-sm-3">
+										<select data-am-selected="{btnSize: 'sm'}" id="stype" style="display: none;">
+										  <option value="no">请选择二级类型</option>
+										  
+										</select>
+									</div>
+									<div class="am-u-sm-6">
+										<label for="goods-type" class="am-u-sm-3 am-form-label">没有想要的?</label>
+										<a class="am-btn am-btn-secondary" href="/Admin/Goods/typesform">添加</a>
+									</div>
+								</div>
+								
+								<div class="am-form-group">
+									<label for="goods-name" class="am-u-sm-3 am-form-label">商品品牌 <span class="tpl-form-line-small-title">*必填</span></label>
+									<div class="am-u-sm-9">
+										<input type="text" class="tpl-form-input" id="brand" placeholder="请输入商品品牌">
+										<small></small>
+									</div>
+								</div>
+								
+								<div class="am-form-group">
+									<label for="goods-name" class="am-u-sm-3 am-form-label">商品名称 <span class="tpl-form-line-small-title">*必填</span></label>
+									<div class="am-u-sm-9">
+										<input type="text" class="tpl-form-input" id="name" placeholder="请输入商品名称">
+										<small></small>
+									</div>
+								</div>
+								
+								<div class="am-form-group">
+                                        <label class="am-u-sm-3 am-form-label">搜索关键字 <span class="tpl-form-line-small-title">*必填</span></label>
+                                        <div class="am-u-sm-9">
+                                            <input type="text" id="keyword" placeholder="输入搜索关键字">
+                                            <small>关键字将会影响客户对产品的搜索</small>
+                                        </div>
+                                </div>
+								
+								<div class="am-form-group">
+									<label for="goods-name" class="am-u-sm-3 am-form-label">商品默认价格 <span class="tpl-form-line-small-title">*必填</span></label>
+									<div class="am-u-sm-9">
+										<input type="text" class="tpl-form-input" id="demo-price" placeholder="请输入商品价格">
+										<small></small>
+									</div>
+								</div>
+								
+								<div class="am-form-group" >
+									<label for="goods-price" class="am-u-sm-3 am-form-label">商品规格 <span class="tpl-form-line-small-title">*必填</span></label>
+									<div class="am-u-sm-3">
+										<input type="text" class="tpl-form-input"  name="format" id="flavor" placeholder="请输入口味,没有默认原味">
+									</div>
+									<div class="am-u-sm-3">
+										<input type="text" class="tpl-form-input" name="format" id="price" placeholder="请输入商品价格*必填">
+									</div>
+									<div class="am-u-sm-3">
+										<input type="text" class="tpl-form-input" name="format" id="stock" placeholder="请输入商品库存*必填">
+									</div>
+								</div>
+								
+								
+								<div class="am-form-group"  id="format">
+									<label for="goods-price" class="am-u-sm-3 am-form-label">更多规格 <span class="tpl-form-line-small-title">选填</span></label>
+									<div class="am-u-sm-9">
+										<button type="button" id="more" class="am-btn am-btn-secondary">更多</button>
+									</div>
+								</div>
+
+								<div class="am-form-group">
+									<label for="goods-cover" class="am-u-sm-3 am-form-label">商品封面图 <span class="tpl-form-line-small-title">必选</span></label>
+									<div class="am-u-sm-9">
+										<div class="am-form-group am-form-file">
+											
+											<button type="button" class="am-btn am-btn-danger am-btn-sm">
+												<i class="am-icon-cloud-upload"></i> 添加封面图片</button>
+											<input id="doc-form-file" type="file" multiple="">
+											<div class="tpl-form-file-img" id="goods-cover">
+												<img  src="" alt="">
+												<input type="hidden" id="cover" >
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
+							<div class="am-form-group ">
+								<label for="introduce"  class="am-u-sm-3 am-form-label">图片展示	</label>
+								<div class="am-u-sm-9">
+									<button type="button"  class="am-btn am-btn-danger am-btn-sm"  data-am-modal="{target: '#doc-modal-1', closeViaDimmer: false, width: 400, height: 225}">
+										<i class="am-icon-cloud-upload"></i> 选择要上传的文件
+									</button>
+								</div>
+							</div>
+							
+							<div class="am-form-group ">
+								<label for="introduce"  class="am-u-sm-3 am-form-label">图片预览</label>
+								<div class="am-u-sm-9" id="img-box">
+									
+								</div>
+							</div>
+							
+			
+						<div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+							  <div id="demo" class="am-modal-dialog">
+									<div class="am-modal-hd">
+										文件上传
+									  <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+									</div>
+									<div class="am-modal-bd" >
+									</div>
+							  </div>
+							</div>
+								
+								
+								 <div class="widget-head am-cf" style="margin-bottom:20px;">
+									<div class="widget-title am-fl">商品详细介绍	</div>
+								</div>
+								
+								<div class="am-form-group">
+									<label for="user-intro" class="am-u-sm-2 am-form-label">商品参数</label>
+									<div class="am-u-sm-10">
+										<textarea class=""  rows="10" id="param" placeholder="请输入参数如  产地:东莞  参数间用逗号隔开"></textarea>
+									</div>
+								</div>
+
+								<div class="am-form-group">
+									<label for="user-intro" class="am-u-sm-1 am-form-label">内容</label>
+									<div class="am-u-sm-11">
+										<textarea class="content"  rows="10" id="editor" placeholder="请输入文章内容"></textarea>
+									</div>
+								</div>
+
+								<div class="am-form-group">
+									<div class="am-u-sm-9 am-u-sm-push-3">
+										<button type="button" id="add" class="am-btn am-btn-primary tpl-btn-bg-color-success ">提交</button>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+</div>
+</div>
+<script type="text/html" id="stype-list">
+	<%for(i = 0;i<data.length;i++){%>
+		<option value="<%=data[i].fid%>"><%=data[i].types%></option>
+	<%}%>
+</script>
+<script type="text/html" id="more-list">
+	<div class="am-form-group" id="new-format">
+		<label for="goods-price" class="am-u-sm-3 am-form-label">规格 <span class="tpl-form-line-small-title" onclick="delformat(this)"><i class="am-icon-close"></i></span></label>
+		<div class="am-u-sm-3">
+			<input type="text" class="tpl-form-input"  name="format" id="flavor" placeholder="请输入口味,没有默认原味">
+		</div>
+		<div class="am-u-sm-3">
+			<input type="text" class="tpl-form-input" name="format" id="price" placeholder="请输入商品价格*必填">
+		</div>
+		<div class="am-u-sm-3">
+			<input type="text" class="tpl-form-input" name="format" id="stock" placeholder="请输入商品库存*必填">
+		</div>
+	</div>
+</script>   
+<script>
+	 
+	$('').click(function(){
+		var obj=$("input[name='format']");
+		var a='' ;
+		obj.each(function(index){
+			if(index%3==2){
+				a += $(this).attr('id')+':'+$(this).val()+'/';
+			}else{
+				a += $(this).attr('id')+':'+$(this).val()+',';
+			}
+		})
+		$.post(
+			"/Api/Goods/guige",
+			{"format":a},
+			function(ret){
+			}
+		)
+	})
+</script>
+<script src="/Public/js/template-native.js"></script>
+<script src="/Public/Admin/assets/js/amazeui.min.js"></script>
+<script src="/Public/Admin/assets/js/amazeui.datatables.min.js"></script>
+<script src="/Public/Admin/assets/js/dataTables.responsive.min.js"></script>
+<script src="/Public/Admin/assets/js/app.js"></script>
+<script src="/Public/Admin/js/goodsform.js"></script>
+<script src="/Public/js/layer/layer.js"></script>
+<script type="text/javascript" src="/Public/Tools/php_img_upload/core/zyFile.js"></script>
+<script type="text/javascript" src="/Public/Tools/php_img_upload/control/js/zyUpload.js"></script>
+
+
+</body>
+
+</html>

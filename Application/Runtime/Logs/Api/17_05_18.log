@@ -1,0 +1,1679 @@
+[ 2017-05-18T08:56:18+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='bi' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T08:56:18+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='bi' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T08:56:18+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000158s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='bin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T08:56:18+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='bing' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T08:56:19+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='bin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T08:56:19+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='bi' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T08:56:19+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='b' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T08:56:22+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='饼干' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T08:56:55+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '饼干'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '手指饼' and pid!=0  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T08:57:03+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000083s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-18T08:57:05+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '蛋糕'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '手指饼' and pid!=0  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-18T09:00:34+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000031s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000064s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000126s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-18T09:01:10+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='不v' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-18T09:01:11+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='不' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T09:01:13+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T09:01:15+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000109s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='饼干' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T09:01:26+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T09:02:06+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='巧克力' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T09:02:16+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types =' ' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T09:02:17+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='巧克力' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T09:39:46+08:00 ] 127.0.0.1 /Api/Types/deleteStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000168s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: DELETE FROM `shop_types` WHERE (  fid=2  ) [ RunTime:0.0002s ]
+
+[ 2017-05-18T09:40:54+08:00 ] 127.0.0.1 /Api/Types/deleteStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: DELETE FROM `shop_types` WHERE (  fid=3  ) [ RunTime:0.0002s ]
+
+[ 2017-05-18T10:37:25+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000140s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000070s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:39:49+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T10:39:58+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T10:41:52+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0002s ]
+
+[ 2017-05-18T10:42:02+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:42:07+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=6  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:42:14+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000097s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:43:43+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:43:47+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=6  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:43:55+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:44:01+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:44:04+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:44:08+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=6  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:46:39+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:47:45+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T10:47:50+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=6  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:01:56+08:00 ] 127.0.0.1 /Api/Up/uptypeLogo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000062s ]
+
+[ 2017-05-18T14:02:01+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='ta' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-18T14:02:01+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='ta' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T14:02:02+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='tan' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T14:02:02+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='ta' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:02:02+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000141s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='t' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-18T14:02:05+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000134s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000109s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='糖果' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T14:02:17+08:00 ] 127.0.0.1 /Api/Up/uptypeLogo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-05-18T14:02:30+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '糖果'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='糖果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`types`,`icon`) VALUES ('糖果','/Public/Uploads/Typelogo/1495087337.png') [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='糖果'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='棒棒糖' and pid=0  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('13','棒棒糖') [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:02:40+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='糖果' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:02:51+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '糖果'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '软糖'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='糖果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='糖果',`icon`='/Public/Uploads/Typelogo/1495087337.png' WHERE (  types='糖果'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='糖果'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='软糖' and pid=0  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('13','软糖') [ RunTime:0.0006s ]
+
+[ 2017-05-18T14:02:58+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '糖果'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '硬糖'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='糖果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='糖果',`icon`='/Public/Uploads/Typelogo/1495087337.png' WHERE (  types='糖果'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='糖果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='硬糖' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('13','硬糖') [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:04:15+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:04:25+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000101s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000085s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '蛋糕'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '软蛋糕'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='蛋糕'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='蛋糕',`icon`='/Public/Uploads/Typelogo/1495024149.png' WHERE (  types='蛋糕'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='蛋糕'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='软蛋糕' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('1','软蛋糕') [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:05:33+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000080s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='坚果' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T14:05:50+08:00 ] 127.0.0.1 /Api/Up/uptypeLogo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-05-18T14:06:15+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '坚果'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='坚果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`types`,`icon`) VALUES ('坚果','/Public/Uploads/Typelogo/1495087550.png') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='坚果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='核桃' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('18','核桃') [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:06:25+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='坚果' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:09:05+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='坚果' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:09:17+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '坚果'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '核仁'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='坚果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='坚果',`icon`='/Public/Uploads/Typelogo/1495087550.png' WHERE (  types='坚果'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='坚果'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='核仁' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('18','核仁') [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:09:32+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000098s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000040s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '坚果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '芒果干'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='坚果'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='坚果',`icon`='/Public/Uploads/Typelogo/1495087550.png' WHERE (  types='坚果'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='坚果'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='芒果干' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('18','芒果干') [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:11:18+08:00 ] 127.0.0.1 /Api/Up/uptypeLogo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000117s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000220s ]
+
+[ 2017-05-18T14:11:45+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types =' ' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:11:54+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='饼干' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:11:56+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='巧克力' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:11:57+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='坚果' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:12:03+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='茶' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-18T14:12:04+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='茶类' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-05-18T14:12:08+08:00 ] 127.0.0.1 /Api/Up/uptypeLogo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-05-18T14:12:22+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '茶类'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='茶类'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`types`,`icon`) VALUES ('茶类','/Public/Uploads/Typelogo/1495087928.png') [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='茶类'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='绿茶' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('22','绿茶') [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:12:38+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='茶类' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:12:42+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '茶类'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '红茶'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='茶类'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='茶类',`icon`='/Public/Uploads/Typelogo/1495087928.png' WHERE (  types='茶类'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='茶类'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='红茶' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('22','红茶') [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:18:23+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000079s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:19:44+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:19:53+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000083s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '蛋糕'  ) LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '抹茶蛋糕'  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='蛋糕'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_types` SET `types`='蛋糕',`icon`='/Public/Uploads/Typelogo/1495024149.png' WHERE (  types='蛋糕'  ) [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='蛋糕'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='抹茶蛋糕' and pid=0  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('1','抹茶蛋糕') [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:20:19+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='蛋糕' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:20:25+08:00 ] 127.0.0.1 /Api/Types/addtype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types = '蛋糕'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types= '绿茶蛋糕'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='蛋糕'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_types` SET `types`='蛋糕',`icon`='/Public/Uploads/Typelogo/1495024149.png' WHERE (  types='蛋糕'  ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='蛋糕'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `shop_types` WHERE (  types='绿茶蛋糕' and pid=0  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: INSERT INTO `shop_types` (`pid`,`types`) VALUES ('1','绿茶蛋糕') [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:20:44+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='糖果' ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:20:45+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000073s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000157s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='茶类' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:20:47+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='饼干' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-18T14:20:49+08:00 ] 127.0.0.1 /Api/Types/showicon
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000106s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE ( types ='坚果' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:22:22+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0002s ]
+
+[ 2017-05-18T14:22:27+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=6  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T14:22:31+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=18  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T16:09:47+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+ERR: 非法操作:"flavor":"gfhd","size":"dsg ","price":"30"/"flavor":"dfg","size":"fgsdf","price":"fsg"/
+
+[ 2017-05-18T16:12:58+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+ERR: 非法操作:"flavor":"gfhd","size":"dsg ","price":"30"/"flavor":"dfg","size":"fgsdf","price":"fsg"/
+
+[ 2017-05-18T16:13:16+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given /var/www/html/thinkphp_shop.com/ThinkPHP/Library/Think/Dispatcher.class.php 第 316 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: 非法操作:
+
+[ 2017-05-18T16:13:44+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given /var/www/html/thinkphp_shop.com/ThinkPHP/Library/Think/Dispatcher.class.php 第 316 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+ERR: 非法操作:
+
+[ 2017-05-18T16:14:29+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T16:15:19+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given /var/www/html/thinkphp_shop.com/ThinkPHP/Library/Think/Dispatcher.class.php 第 316 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+ERR: 非法操作:
+
+[ 2017-05-18T16:16:00+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given /var/www/html/thinkphp_shop.com/ThinkPHP/Library/Think/Dispatcher.class.php 第 316 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+ERR: 非法操作:
+
+[ 2017-05-18T16:16:10+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given /var/www/html/thinkphp_shop.com/ThinkPHP/Library/Think/Dispatcher.class.php 第 316 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+ERR: 非法操作:
+
+[ 2017-05-18T16:17:28+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+NOTIC: [2] strip_tags() expects parameter 1 to be string, array given /var/www/html/thinkphp_shop.com/ThinkPHP/Library/Think/Dispatcher.class.php 第 316 行.
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+ERR: 非法操作:
+
+[ 2017-05-18T16:44:35+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-05-18T16:46:31+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+
+[ 2017-05-18T16:46:36+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+
+[ 2017-05-18T16:46:58+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000083s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000172s ]
+
+[ 2017-05-18T16:49:53+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-05-18T16:52:02+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000036s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000071s ]
+
+[ 2017-05-18T16:53:06+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000055s ]
+
+[ 2017-05-18T16:53:09+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000180s ]
+
+[ 2017-05-18T16:55:12+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000068s ]
+
+[ 2017-05-18T16:55:18+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000166s ]
+
+[ 2017-05-18T16:58:44+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-05-18T16:58:48+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000075s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000092s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000063s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000153s ]
+
+[ 2017-05-18T16:59:03+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000046s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000093s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000046s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000102s ]
+
+[ 2017-05-18T16:59:17+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2017-05-18T17:04:20+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000159s ]
+
+[ 2017-05-18T17:07:04+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000065s ]
+
+[ 2017-05-18T17:09:35+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-05-18T17:09:46+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000064s ]
+
+[ 2017-05-18T17:10:04+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000255s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000081s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000081s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000167s ]
+
+[ 2017-05-18T17:12:44+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined variable: str /var/www/html/thinkphp_shop.com/Application/Api/Controller/GoodsController.class.php 第 9 行.
+NOTIC: [8] Undefined variable: str /var/www/html/thinkphp_shop.com/Application/Api/Controller/GoodsController.class.php 第 9 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000051s ]
+
+[ 2017-05-18T17:13:02+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000028s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000057s ]
+
+[ 2017-05-18T17:13:20+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000082s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000171s ]
+
+[ 2017-05-18T17:14:24+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000070s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-05-18T17:14:49+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000047s ]
+
+[ 2017-05-18T17:16:34+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-05-18T17:49:30+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000083s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000072s ]
+
+[ 2017-05-18T17:49:31+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-05-18T17:49:31+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000057s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000053s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000134s ]
+
+[ 2017-05-18T17:49:47+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000050s ]
+
+[ 2017-05-18T17:50:32+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-05-18T17:51:56+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+
+[ 2017-05-18T17:52:10+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+
+[ 2017-05-18T17:52:18+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+NOTIC: [2] implode(): Invalid arguments passed /var/www/html/thinkphp_shop.com/Application/Api/Controller/GoodsController.class.php 第 7 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000022s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-05-18T17:52:40+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-05-18T17:53:03+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000060s ]
+
+[ 2017-05-18T17:54:14+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+
+[ 2017-05-18T17:54:51+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-05-18T17:56:13+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000088s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000035s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-05-18T17:58:46+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000094s ]
+
+[ 2017-05-18T17:59:03+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000049s ]
+
+[ 2017-05-18T17:59:22+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000044s ]
+
+[ 2017-05-18T18:00:01+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000156s ]
+
+[ 2017-05-18T18:00:34+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000020s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000045s ]
+
+[ 2017-05-18T18:01:45+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000054s ]
+
+[ 2017-05-18T18:02:09+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000027s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000061s ]
+
+[ 2017-05-18T18:02:24+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2017-05-18T18:02:46+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000052s ]
+
+[ 2017-05-18T19:15:08+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000025s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000056s ]
+
+[ 2017-05-18T19:15:48+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000092s ]
+
+[ 2017-05-18T19:16:11+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000082s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000066s ]
+
+[ 2017-05-18T19:16:12+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000148s ]
+
+[ 2017-05-18T19:22:58+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=6  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T19:23:01+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T19:23:02+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=22  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T19:23:03+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=18  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T19:26:34+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000099s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000076s ]
+
+[ 2017-05-18T19:26:35+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000045s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000098s ]
+
+[ 2017-05-18T19:26:35+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000035s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000075s ]
+
+[ 2017-05-18T19:26:35+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000107s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000039s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000086s ]
+
+[ 2017-05-18T19:26:36+08:00 ] 127.0.0.1 /Api/Goods/guige
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000087s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000030s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000067s ]
+
+[ 2017-05-18T20:10:39+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=1  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T20:10:42+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=13  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T20:27:28+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=22  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T20:33:37+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T20:33:40+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=22  )  [ RunTime:0.0001s ]
+
+[ 2017-05-18T20:33:47+08:00 ] 127.0.0.1 /Api/Types/getStype
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000057s ]
+SQL: SHOW COLUMNS FROM `shop_types` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_types` WHERE (  pid=9  )  [ RunTime:0.0001s ]
+

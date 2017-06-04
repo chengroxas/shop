@@ -1,0 +1,1552 @@
+[ 2017-05-25T09:04:54+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000073s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0005s ]
+
+[ 2017-05-25T09:35:10+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='22' or email='22' or phone='22'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=2  ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-05-25T09:35:12+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T09:36:11+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+NOTIC: [8] Undefined index: id /var/www/html/thinkphp_shop.com/Application/Api/Controller/CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goodsid=4  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_shopcart` WHERE (  userid= and goodsid=4  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goodsid=4  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_shopcart` WHERE (  userid= and goodsid=4  ) LIMIT 1  
+
+[ 2017-05-25T09:36:24+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000036s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='22' or email='22' or phone='22'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=2  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-25T09:36:27+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T09:38:08+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='22' or email='22' or phone='22'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=2  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T09:39:26+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='22' or email='22' or phone='22'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=2  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-25T09:39:30+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0016s ]
+
+[ 2017-05-25T09:51:34+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: id /var/www/html/thinkphp_shop.com/Application/Api/Controller/CartController.class.php 第 12 行.
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goodsid=4  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_shopcart` WHERE (  userid= and goodsid=4  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and goodsid=4  ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_shopcart` WHERE (  userid= and goodsid=4  ) LIMIT 1  
+
+[ 2017-05-25T09:52:08+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='22' or email='22' or phone='22'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=2  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-25T09:52:11+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T11:16:32+08:00 ] 127.0.0.1 /Api/Order/comment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_order` WHERE (  ordernum=149561873749525342 and userid=2 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_comment` [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_comment` (`goodspid`,`goodsid`,`userid`,`content`,`level`,`time`) VALUES ('2','4','2','虽然是假冒的,但是好湿','1','1495682192') [ RunTime:0.0002s ]
+SQL: UPDATE `shop_order` SET `status`='2' WHERE (  ordernum=149561873749525342 and userid=2 ) [ RunTime:0.0022s ]
+
+[ 2017-05-25T11:19:37+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T11:42:08+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T16:31:15+08:00 ] 127.0.0.1 /Api/Order/sureorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000084s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000033s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000073s ]
+
+[ 2017-05-25T16:43:39+08:00 ] 127.0.0.1 /Api/Order/sureorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0004s ]
+SQL: UPDATE `shop_order` SET `status`='3' WHERE (  ordernum=149561871256485410 and userid=2  ) [ RunTime:0.0026s ]
+
+[ 2017-05-25T16:55:03+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T16:55:09+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:08:02+08:00 ] 127.0.0.1 /Api/Order/sureorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000041s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000077s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0007s ]
+SQL: UPDATE `shop_order` SET `status`='3' WHERE (  ordernum=149561873749525453 and userid=2  ) [ RunTime:0.0017s ]
+
+[ 2017-05-25T17:17:38+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:17:41+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0000s ]
+
+[ 2017-05-25T17:17:46+08:00 ] 127.0.0.1 /Api/User/getUserDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:18:14+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:18:42+08:00 ] 127.0.0.1 /Api/Address/getTown
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=2147  )  [ RunTime:0.0007s ]
+
+[ 2017-05-25T17:18:46+08:00 ] 127.0.0.1 /Api/Address/getArea
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=2288  )  [ RunTime:0.0007s ]
+
+[ 2017-05-25T17:22:14+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000034s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_shopcart` (`goodsid`,`nums`,`userid`,`pid`) VALUES ('4','9','2','2') [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:20+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='10' WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:21+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000049s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='11' WHERE (  userid=2 and id=4  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:22:21+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='12' WHERE (  userid=2 and id=4  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:22:21+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='13' WHERE (  userid=2 and id=4  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:22:22+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='14' WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:22+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='15' WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:22+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000105s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='16' WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:22+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='17' WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:22+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000105s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='18' WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:23+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='19' WHERE (  userid=2 and id=4  ) [ RunTime:0.0004s ]
+
+[ 2017-05-25T17:22:23+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='20' WHERE (  userid=2 and id=4  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:22:29+08:00 ] 127.0.0.1 /Api/Cart/delItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000039s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000076s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: DELETE FROM `shop_shopcart` WHERE (  userid=2 and id=4  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:22:33+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:22:39+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000053s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:22:41+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:23:28+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:23:32+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:23:34+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:23:38+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:29:51+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0000s ]
+
+[ 2017-05-25T17:36:06+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:36:24+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:36:24+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:36:43+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:37:00+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:37:12+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_shopcart` (`goodsid`,`nums`,`userid`,`pid`) VALUES ('4','1','2','2') [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:37:17+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:45:12+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:45:15+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:45:19+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0002s ]
+
+[ 2017-05-25T17:45:20+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:46:01+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:46:09+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:46:48+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:48:20+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000041s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:48:34+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:48:51+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000056s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:49:23+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:49:38+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:51:49+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:51:51+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:52:05+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:53:06+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:53:25+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000077s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:53:28+08:00 ] 127.0.0.1 /Api/User/getUserDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000068s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:54:04+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000020s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000040s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:54:56+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0000s ]
+
+[ 2017-05-25T17:54:59+08:00 ] 127.0.0.1 /Api/User/getUserDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T17:56:29+08:00 ] 127.0.0.1 /Api/User/getUserDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-25T17:57:35+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000054s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000042s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T19:26:23+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='11' or email='11' or phone='11'  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=1  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T19:26:26+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '1'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '1'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T19:26:33+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000071s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000154s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=1 and goodsid=6  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_shopcart` (`goodsid`,`nums`,`userid`,`pid`) VALUES ('6','1','1','4') [ RunTime:0.0002s ]
+
+[ 2017-05-25T19:26:59+08:00 ] 127.0.0.1 /Api/Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE (  user='22' or email='22' or phone='22'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `shop_shopcart` WHERE (  userid=2  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T19:27:02+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:07:12+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000063s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=6  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:07:13+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000163s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=6  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:07:13+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000033s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000066s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=6  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:07:14+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000062s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=7  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:07:14+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000156s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=6  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:07:15+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=6  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:07:18+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=  ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ') LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=  ) LIMIT 1  
+
+[ 2017-05-25T20:07:20+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=6  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:38:55+08:00 ] 127.0.0.1 /Api/Goods/selformat
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000170s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=7  ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:38:56+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=7  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_shopcart` (`goodsid`,`nums`,`userid`,`pid`) VALUES ('7','3','2','4') [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:39:02+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=7  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `goodsid`='7',`nums`='6',`userid`='2',`pid`='4' WHERE (  userid=2 and goodsid=7  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:39:25+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=7  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=7  ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-05-25T20:39:30+08:00 ] 127.0.0.1 /Api/Address/getProvice
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_city` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_city` WHERE (  pid=0  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:39:33+08:00 ] 127.0.0.1 /Api/Order/cartorder
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_order` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  id=7  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `shop_order` (`userid`,`adrid`,`goodsid`,`num`,`ordernum`,`time`) VALUES ('2','4','7','6','149571597353535551','1495715973') [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE (  goodsid=7  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_goods_detail` SET `stock`='-3' WHERE (  goodsid=7  ) [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `shop_goods` WHERE (  id=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_goods` SET `sales`='8' WHERE (  id=4  ) [ RunTime:0.0003s ]
+SQL: DELETE FROM `shop_shopcart` WHERE (  id=7 ) [ RunTime:0.0003s ]
+
+[ 2017-05-25T20:40:29+08:00 ] 127.0.0.1 /Api/Cart/delItem
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000055s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: DELETE FROM `shop_shopcart` WHERE (  userid=2 and id=5  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:40:33+08:00 ] 127.0.0.1 /Api/User/getUserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000055s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_user` WHERE ( id = '2'  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_user_info` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_user_info` WHERE (  userid = '2'  )  [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:40:57+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_shopcart` (`goodsid`,`nums`,`userid`,`pid`) VALUES ('8','4','2','5') [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:41:00+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000079s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000161s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `goodsid`='8',`nums`='8',`userid`='2',`pid`='5' WHERE (  userid=2 and goodsid=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:43:25+08:00 ] 127.0.0.1 /Api/Cart/addbasket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and goodsid=4  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `shop_shopcart` (`goodsid`,`nums`,`userid`,`pid`) VALUES ('4','1','2','2') [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:43:38+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000063s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:43:51+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000067s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:44:34+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-05-25T20:44:36+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000043s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:44:37+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000096s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:44:39+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000155s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:44:40+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000069s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000048s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='7' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:40+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='6' WHERE (  userid=2 and id=8  ) [ RunTime:0.0003s ]
+
+[ 2017-05-25T20:44:41+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000064s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000050s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='5' WHERE (  userid=2 and id=8  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:44:41+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='4' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:41+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000073s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='3' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:42+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000043s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='4' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:43+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='3' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:43+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='2' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:44+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000079s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='3' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:44+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000038s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000081s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='4' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:44:45+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000066s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000051s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='5' WHERE (  userid=2 and id=8  ) [ RunTime:0.0003s ]
+
+[ 2017-05-25T20:44:46+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:44:47+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000065s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:45:08+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000072s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000058s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='4' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:45:09+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000071s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='5' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:45:10+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:45:11+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000059s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:45:13+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000025s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000047s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:46:14+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000027s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000054s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='4' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:46:15+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000095s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:46:17+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000062s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='3' WHERE (  userid=2 and id=8  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:46:17+08:00 ] 127.0.0.1 /Api/Cart/reduceNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000074s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000059s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) ORDER BY pid	 LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='2' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:46:18+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000060s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000022s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000045s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='3' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:46:18+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000067s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000052s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='4' WHERE (  userid=2 and id=8  ) [ RunTime:0.0002s ]
+
+[ 2017-05-25T20:46:19+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000096s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000064s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:46:21+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000061s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:46:24+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000061s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000024s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000046s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=9  ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=4  ) LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `shop_shopcart` SET `nums`='2' WHERE (  userid=2 and id=9  ) [ RunTime:0.0001s ]
+
+[ 2017-05-25T20:46:25+08:00 ] 127.0.0.1 /Api/Cart/addNum
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000021s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000044s ]
+SQL: SHOW COLUMNS FROM `shop_shopcart` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_shopcart` WHERE (  userid=2 and id=8  ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `shop_goods_detail` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `shop_goods_detail` WHERE ( goodsid=8  ) LIMIT 1   [ RunTime:0.0001s ]
+

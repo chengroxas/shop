@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=0">
+
+	<title>个人资料</title>
+
+	<link href="/Public/Tools/AmazeUI-2.4.2/assets/css/admin.css" rel="stylesheet" type="text/css">
+	<link href="/Public/Tools/AmazeUI-2.4.2/assets/css/amazeui.css" rel="stylesheet" type="text/css">
+
+	<link href="/Public/css/personal.css" rel="stylesheet" type="text/css">
+	<link href="/Public/css/infstyle.css" rel="stylesheet" type="text/css">
+	
+			
+</head>
+
+<body>
+	<!--头 -->
+	<include file="./Public/Tpl/User/header.html" />
+	<!--头 -->
+<b class="line"></b>
+	<div class="center">
+		<div class="col-main">
+			<div class="main-wrap">			
+				<!---个人详细信息---->
+				<div class="user-info">
+				<!--标题 -->
+				<div class="am-cf am-padding">
+					<div class="am-fl am-cf"><strong class="am-text-danger am-text-lg">个人资料</strong> / <small>Personal&nbsp;information</small></div>
+				</div>
+				<hr/>
+
+				<!--头像 -->
+				<div class="user-infoPic">
+
+					<div class="filePic">
+						<input  id="logo" name="logo" type="file" class="inputPic" allowexts="gif,jpeg,jpg,png,bmp" accept="image/*">
+						<input id="logo-img" value="{$Think.session.logo}" type="hidden">
+						<if condition="$Think.session.logo eq '' ">
+							<img class="am-circle am-img-thumbnail" src="/Public/images/getAvatar.do.jpg" alt="" />
+						<else />
+							<img class="am-circle am-img-thumbnail" src="{$Think.session.logo}" alt="" />
+						</if>
+					</div>
+
+					<p class="am-form-help">头像</p>
+
+					<div class="info-m">
+						<div><b>用户名：<i>{$Think.session.user}</i></b></div>
+						<div class="vip">
+							  <span></span><a href="#">会员专享</a>
+						</div>
+					</div>
+				</div>
+
+				<!--个人信息 -->
+				<div class="info-main">
+					<form class="am-form am-form-horizontal">
+
+						<div class="am-form-group">
+							<label for="user-name2" class="am-form-label">昵称</label>
+							<div class="am-form-content">
+								<input type="text" id="nickname" value="{$user['nickname']}" placeholder="nickname">
+								  <small>昵称长度不能超过40个汉字</small>
+							</div>
+						</div>
+
+
+						<div class="am-form-group">
+							<label class="am-form-label">性别</label>
+							<div class="am-form-content sex">
+								<label class="am-radio-inline">
+									<if condition="$user['sex'] eq 'male' ">
+										<input type="radio" name="sex" value="male" checked="checked" > 男
+									<else/>
+										<input type="radio" name="sex"  value="male" data-am-ucheck> 男
+									</if>
+								</label>
+								<label class="am-radio-inline">
+									<if condition="$user['sex'] eq 'female' ">
+										<input type="radio" name="sex" value="female" checked > 女
+									<else/>
+										<input type="radio" name="sex" value="female" data-am-ucheck> 女
+									</if>
+								</label>
+								<label class="am-radio-inline">
+									<if condition="$user['sex'] eq 'secret' ">
+										<input type="radio" name="sex" value="secret" checked> 保密
+									<else/>
+										<input type="radio" name="sex" value="secret" data-am-ucheck> 保密
+									</if>
+								</label>
+							</div>
+						</div>
+
+						<div class="am-form-group">
+							<label for="user-birth" class="am-form-label">生日</label>
+							<div class="am-form-content birth">
+								<div class="am-input-group am-datepicker-date" id="date" data-am-datepicker="{format: 'yyyy-mm-dd', viewMode: 'years'}">
+									<span class="am-input-group-btn am-datepicker-add-on">
+										<button class="am-btn am-btn-default"  type="button"><span class="am-icon-calendar"></span> </button>
+									</span>
+									<input type="text"  class="am-form-field" id="birth" value="{$user['birth']}" placeholder="出生日期" readonly>
+								</div>
+							</div>
+						</div>
+						
+						<div class="am-form-group">
+							<label for="user-phone" class="am-form-label">电话</label>
+							<div class="am-form-content">
+								<input id="phone" placeholder="telephonenumber" value="{$user['phone']}" type="tel">
+								<small>手机号码必填</small>
+							</div>
+						</div>
+						
+						<div class="am-form-group">
+							<label for="user-email" class="am-form-label">电子邮件</label>
+							<div class="am-form-content">
+								<input id="email" placeholder="Email" value="{$user['email']}" type="email">
+								<small>邮箱必填</small>
+							</div>
+						</div>
+						
+						<div class="am-form-group address">
+							<label for="user-address" class="am-form-label">收货地址</label>
+							<div class="am-form-content address">
+								<a href="/Home/User/address">
+									<p class="new-mu_l2cw">
+										<span class="province">{$address['province']}</span>
+										<span class="city">{$address['town']}</span>
+										<span class="dist">{$address['area']}</span>
+										<span class="street">{$address['address']}</span>
+										<span class="am-icon-angle-right"></span>
+									</p>
+								</a>
+
+							</div>
+						</div>
+						<div class="am-form-group safety">
+							<label for="user-safety" class="am-form-label">账号安全</label>
+							<div class="am-form-content safety">
+								<a href="safety.html">
+									<span class="am-icon-angle-right"></span>
+								</a>
+
+							</div>
+						</div>
+						<div class="info-btn">
+							<div class="am-btn am-btn-danger" id="modify">保存修改</div>
+						</div>
+					</form>
+					</div>	
+				</div>	
+			</div>
+			<!--底部-->
+			<include file="./Public/Tpl/User/footer.html" />
+			<!--底部-->
+		</div>
+		<!--侧栏-->
+		<include file="./Public/Tpl/User/sidebar.html" />
+		<!--侧栏-->
+	</div>
+</body>
+	
+<script src="/Public/js/jquery.js"></script>
+<script src="/Public/js/common.js"></script>
+<script src="/Public/js/memberinfo.js"></script>
+<script src="/Public/Tools/AmazeUI-2.4.2/assets/js/jquery.min.js"></script>
+<script src="/Public/Tools/AmazeUI-2.4.2/assets/js/amazeui.js"></script>
+<script src="/Public/js/layer/layer.js"></script>
+</html>
